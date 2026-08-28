@@ -1,0 +1,55 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  padding: 20px;
+}
+
+.counter {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.ticks {
+  height: 1px;
+  background: #dee2e6;
+  margin: 20px 0;
+}
+
+#next-steps {
+  display: grid;
+  gap: 20px;
+  padding: 20px;
+}
+
+#docs, #social {
+  border: 1px solid #dee2e6;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+.logo, .button-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+a {
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
